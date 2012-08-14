@@ -1,0 +1,85 @@
+﻿/* SCC style */
+/* -------------------------------------------------------------------
+imported style sheets
+----------------------------------------------------------------------*/
+@import url(reset.css);
+
+/*--------------------------------------------------------
+styles
+----------------------------------------------------------*/
+#container {
+    width: 500px;
+    margin: auto;
+}
+
+p {
+    font-size: 12px;
+}
+
+#header {
+    background: transparent url("../images/head.jpg") 0 0 no-repeat;
+    height: 225px;
+    position: relative;
+
+}
+
+.likeButton {
+    position: absolute;
+    right: 22px;
+    top: 64px;
+    width: 168px;
+    height: 59px;
+    cursor: pointer
+}
+
+.footHeader {
+    margin: 10px 10px 10px 0;
+}
+
+.footHeader p {
+    line-height: 23px;
+}
+
+.buttonJoin {
+    display: block;
+    width: 98px;
+    height: 23px;
+    background: transparent url("../images/button.jpg") 0 0 no-repeat;
+    float: right;
+    cursor: pointer;
+}
+
+.place {
+    height: 196px;
+    background: transparent url("../images/bg.jpg") 0 0 no-repeat;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.place img {
+    display: block;
+    float: left;
+    margin: 17px 10px 0 12px;
+}
+
+.place h3 {
+    padding-top: 17px;
+}
+
+.place p {
+    padding-top: 10px;
+
+}
+
+.orangeButton {
+    display: block;
+    position: absolute;
+    right: 15px;
+    bottom: 14px;
+    background: transparent url("../images/button_orange.jpg") 0 0 no-repeat;
+    width: 127px;
+    height: 41px;
+    text-align: center;
+    cursor: pointer;
+}
+
